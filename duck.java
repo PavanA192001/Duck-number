@@ -5,6 +5,7 @@ public class duck {
     public static void main(String[] args) {
         boolean flag=false;
         Scanner s=new Scanner(System.in); 
+        System.out.println("Enter the number");
         int num=s.nextInt();//accepting the input from user
         while (num!=0) //travsersing the all digits in number
         {
